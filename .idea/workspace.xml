@@ -315,13 +315,20 @@
     <entry file="file://$PROJECT_DIR$/pages/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+>>>>>>> e0d941a90ddb3cc20c64ec2cd36c179f315fdf4f
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="73">
           <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+=======
+        <state relative-caret-position="392">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+>>>>>>> e0d941a90ddb3cc20c64ec2cd36c179f315fdf4f
         </state>
       </provider>
     </entry>
