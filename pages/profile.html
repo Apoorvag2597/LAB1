@@ -23,8 +23,6 @@
             <a class="navbar-brand" href="../index.html">ABs</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-
             <ul class="nav navbar-nav">
                 <li class="active"><a href="../index.html">Home</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span
@@ -40,7 +38,7 @@
                 <li><a href="#">Today's Deal</a></li>
                 <li><a href="#">SALE!!!</a></li>
             </ul>
-            <form class="navbar-form navbar-left" action="/action_page.php">
+            <form class="navbar-form navbar-left">
                 <div class="input-group col-sm-12">
                     <input type="text" class="form-control" placeholder="Search" name="search">
                     <div class="input-group-btn">
@@ -54,7 +52,7 @@
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My Account<span
                         class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="./profile.html">Profile</a></li>
+                        <li><a href="#">Profile</a></li>
                         <li><a href="./order.html">Orders</a></li>
                         <li><a href="./login.html">Logout</a></li>
                     </ul>
@@ -65,36 +63,30 @@
 </nav>
 
 <div class="container">
-    <div class="row marginbottom-5px">
-        <div class="col-sm-12">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <label>Order # : 1WERF34545</label><br/>
-                    <label>Item Name : Nike Shoes</label><br/>
-                    <label>Price : $20</label><br/>
-                    <label>Order Date : 10-20-2018</label>
+    <div class="row marginbottom">
+        <div class="col-sm-6 col-sm-offset-3">
+            <form>
+                <legend>Hello, Bindu</legend>
+                <div class="row marginbottom-5px">
+                    <div class="col-sm-6">
+                        <input type="text" name="firstname" class="form-control"
+                               value="Bindu"/></div>
+                    <div class="col-sm-6">
+                        <input type="text" name="lastname" class="form-control"
+                               value="Vatsavayi"/></div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-12">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <label>Order # : 2WRR44545</label><br/>
-                    <label>Item Name : Womens watch</label><br/>
-                    <label>Price : $6</label><br/>
-                    <label>Order Date : 9-10-2018</label>
+                <div class="marginbottom-5px">
+                    <input type="text" name="email" class="form-control" value="abc@gmail.com"/>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-12">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <label>Order # : 3FDEGER2334</label><br/>
-                    <label>Item Name : Women Top</label><br/>
-                    <label>Price : $14.99</label><br/>
-                    <label>Order Date : 7-7-2018</label>
+                <div class="marginbottom-5px">
+                    <input type="password" name="password" class="form-control" value="sqwrerewr"/>
                 </div>
-            </div>
+                <strong>Gender : </strong> Female
+                <br/>
+                <button class="btn  btn-primary btn-block" type="submit">
+                    Save
+                </button>
+            </form>
         </div>
     </div>
 </div>

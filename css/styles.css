@@ -17,3 +17,10 @@
 .product-img{
     height: 200px!important;
 }
+body
+{
+    background-color: lightpink;
+}
+.marginbottom{
+    margin-bottom: 10em;
+}
